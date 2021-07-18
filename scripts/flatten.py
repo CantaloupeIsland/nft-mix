@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from brownie import AdvancedCollectible, accounts, network, config, interface
+from brownie import CantaloupeIsland, accounts, network, config, interface
 import json
 
 
@@ -8,6 +8,6 @@ def main():
 
 
 def flatten():
-    file = open("./AdvancedCollectible_flattened.json", "w")
-    json.dump(AdvancedCollectible.get_verification_info(), file)
+    file = open("./CantaloupeIsland_flattened.json", "w")
+    json.dump(CantaloupeIsland.get_verification_info(), file)
     file.close()
