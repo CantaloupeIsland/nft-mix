@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >= 0.6.0 <0.8.0;
-
+pragma solidity ^0.7.6;
 ///////////////////////////////////////////////////////////////////////////////////
 // CANTALOUPE ISLAND DAO
 ///////////////////////////////////////////////////////////////////////////////////
@@ -40,9 +39,9 @@ pragma solidity >= 0.6.0 <0.8.0;
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&#(/(#(((////(((((#%@@@@@@@@@@@@@@@@@@@@@@@@@@
 ///////////////////////////////////////////////////////////////////////////////////
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.0/contracts/presets/ERC721PresetMinterPauserAutoId.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.0/contracts/utils/Counters.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.4.0/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/presets/ERC721PresetMinterPauserAutoId.sol";
+import "@openzeppelin/contracts/utils/Counters.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract CantaloupeIsland is ERC721PresetMinterPauserAutoId, Ownable {
   using Counters for Counters.Counter;
