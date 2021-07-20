@@ -12,15 +12,15 @@ with open('/Users/adidonato/git_tree/nft-mix/scripts/cantaloupe/IPFSHASHES.log')
     for line in f:
         print(line)
         uri_list.append(line)
+#!!!!!!!!!!!!!!!!!!!!!!!!!!
+##!!!!!!!!!!!!!!!!!!!!!
 price = 100
-with open('/Users/adidonato/git_tree/nft-mix/build/canta-old.json') as f:
-    abi = json.load(f)
+#####################################
 
 def main():
     dev = accounts.add(config["wallets"]["from_key"])
     print(network.show_active())
     simple_collectible = CantaloupeIsland[len(CantaloupeIsland) - 1]
-    Contract.from_abi("CantaloupeIsland", "0xf42c97b41aadcde792031f83138e6057075490f1", abi)
     # simple_collectible = CantaloupeIsland.deploy({"from": dev})
     uri_list.sort()
     for i, uri in enumerate(uri_list):
