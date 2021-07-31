@@ -1,7 +1,13 @@
 {
+  "1": {
+    "CantaloupeIsland": [
+      "0xaeed9a4aecbd2c64df564f89090f720abd0b2f1e"
+    ]
+  },
   "4": {
     "CantaloupeIsland": [
       "0xf42c97b41aadcde792031f83138e6057075490f1",
+      "0x502F6bfDD2D3E5aa58Cf7205Ab92f07FfBB242fB",
       "0xA9aE2E3b9af6Ef0c049f0b2f9f898fB82CE00aB2"
     ]
   }

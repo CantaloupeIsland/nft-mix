@@ -4,15 +4,15 @@ reports:
   exclude_contracts:
     - SafeMath
 dependencies:
-  - OpenZeppelin/openzeppelin-contracts@3.4.0
+  - OpenZeppelin/openzeppelin-contracts-upgradeable@3.4.0
 compiler:
   solc:
     remappings:
-      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.4.0'
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts-upgradeable@3.4.0'
 # automatically fetch contract sources from Etherscan
 autofetch_sources: True
 dotenv: .env
-# set a custom mnemonic for the development network
+# set a custom mnemonic for the development ne-upgtwork
 networks:
   default: development
   kovan:
